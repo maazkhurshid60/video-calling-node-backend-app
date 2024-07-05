@@ -5,8 +5,6 @@ import {app} from './app.js'
 
 import './socketApp.js';
 
-//again Adding line for git activity
-
 dotenv.config({
     path: './.env'
 });
