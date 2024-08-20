@@ -2,7 +2,7 @@ import express from "express"
 import cors from "cors"
 import cookieParser from "cookie-parser"
 
-//Chnaging this liine for git activity
+//Adding this liine for git activity
 
 //Defining Express App Object
 const app = express();
