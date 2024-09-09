@@ -2,7 +2,7 @@ import express from "express"
 import cors from "cors"
 import cookieParser from "cookie-parser"
 
-//Changing this liine for git activity
+//Adding this liine for git activity
 
 //Defining Express App Object
 const app = express();
@@ -14,8 +14,8 @@ app.use(cors({
 }));
 
 //Applying Middlewares on Express App
-app.use(express.json({limit: "16kb"}));
-app.use(express.urlencoded({extended: true, limit: "16kb"}));
+app.use(express.json({ limit: "16kb" }));
+app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 app.use(express.static("public"));
 app.use(cookieParser());
 
